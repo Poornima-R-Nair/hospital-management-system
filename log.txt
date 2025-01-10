@@ -1,0 +1,54 @@
+26-12-2024 20:42:15: INFO: Viewing all patients
+26-12-2024 20:44:08: INFO: Viewing all patients
+26-12-2024 20:44:18: INFO: Adding a new patient
+26-12-2024 20:45:14: INFO: Updating a patient
+26-12-2024 20:46:30: INFO: Edited Patient: Madhuri Kv, Age: 20
+26-12-2024 20:46:48: INFO: Deleting a patient
+26-12-2024 20:46:52: INFO: Patient Madhuri Kv deleted successfully
+26-12-2024 20:47:07: INFO: Viewing all doctors
+26-12-2024 20:47:16: INFO: Adding a new doctor
+26-12-2024 20:47:49: INFO: Updating a doctor
+26-12-2024 20:48:17: INFO: Edited Doctor: Shilpa john, Specialization: Dentist
+26-12-2024 20:48:31: INFO: Deleting a doctor
+26-12-2024 20:48:37: INFO: Doctor Sruthy deleted successfully
+26-12-2024 20:48:46: INFO: Viewing all appointments
+26-12-2024 20:48:53: INFO: Adding a new appointment
+26-12-2024 20:49:50: INFO: Updating an appointment
+26-12-2024 20:50:19: INFO: Viewing all equipment
+26-12-2024 20:50:31: INFO: Adding new equipment
+26-12-2024 20:51:36: INFO: Viewing all appointments for Doctor ID 3
+26-12-2024 20:52:33: INFO: Viewing medical record for Patient ID 1
+26-12-2024 20:52:52: INFO: Adding medical record for Patient ID 4
+26-12-2024 20:53:57: INFO: Updating medical record for Patient ID 4
+26-12-2024 20:57:28: INFO: Viewing all appointments for Doctor ID 3
+26-12-2024 21:00:20: INFO: Viewing all appointments for Doctor ID 3
+26-12-2024 21:02:02: INFO: Viewing medical record for Patient ID 3
+26-12-2024 21:02:34: INFO: Viewing medical record for Patient ID 4
+26-12-2024 21:34:32: INFO: Viewing all doctors
+26-12-2024 21:37:06: INFO: Adding a new doctor
+26-12-2024 22:02:56: INFO: Updating a doctor
+26-12-2024 22:03:24: INFO: Edited Doctor: ganga kv, Specialization: Ortho
+26-12-2024 22:15:30: INFO: Viewing all patients
+27-12-2024 12:48:08: INFO: Viewing all patients
+27-12-2024 12:48:18: INFO: Adding a new patient
+27-12-2024 12:49:56: INFO: Viewing all doctors
+27-12-2024 12:50:02: INFO: Adding a new appointment
+27-12-2024 12:51:01: INFO: Viewing all appointments
+27-12-2024 12:51:07: INFO: Viewing all equipment
+27-12-2024 12:52:58: INFO: Viewing all appointments for Doctor ID 4
+27-12-2024 12:53:13: INFO: Viewing all appointments for Doctor ID 4
+27-12-2024 12:55:34: INFO: Adding a new appointment
+27-12-2024 12:57:07: INFO: Viewing all patients
+27-12-2024 12:59:25: INFO: Viewing all appointments for Doctor ID 3
+27-12-2024 12:59:51: INFO: Viewing medical record for Patient ID 1
+27-12-2024 17:01:07: INFO: Viewing all patients
+27-12-2024 17:01:13: INFO: Updating a patient
+27-12-2024 17:02:23: INFO: Edited Patient: poornima, Age: 30
+27-12-2024 17:02:34: INFO: Viewing all doctors
+27-12-2024 17:02:43: INFO: Adding a new doctor
+27-12-2024 17:03:28: INFO: Adding a new appointment
+27-12-2024 17:05:25: INFO: Viewing all appointments for Doctor ID 5
+27-12-2024 17:05:40: INFO: Adding medical record for Patient ID 1
+10-01-2025 13:53:30: INFO: Viewing all patients
+10-01-2025 13:53:37: INFO: Adding a new patient
+10-01-2025 13:56:23: INFO: Viewing all doctors
