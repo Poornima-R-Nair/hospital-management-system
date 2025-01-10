@@ -42,9 +42,9 @@ namespace HospitalManagementApp.Data
                         });
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching doctors: " + ex.Message);
+                    Console.WriteLine("Error fetching doctors: " + exception.Message);
                 }
             }
 
@@ -81,9 +81,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to add doctor.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -119,9 +119,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to update doctor.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -153,9 +153,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to delete doctor.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -196,9 +196,9 @@ namespace HospitalManagementApp.Data
                         });
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching patients: " + ex.Message);
+                    Console.WriteLine("Error fetching patients: " + exception.Message);
                 }
             }
 
@@ -279,9 +279,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to update patient.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -309,9 +309,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to delete patient.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -347,9 +347,9 @@ namespace HospitalManagementApp.Data
                         });
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching appointments: " + ex.Message);
+                    Console.WriteLine("Error fetching appointments: " + exception.Message);
                 }
             }
 
@@ -384,9 +384,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to add appointment.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -421,9 +421,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to update appointment.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -451,9 +451,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to delete appointment.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -487,9 +487,9 @@ namespace HospitalManagementApp.Data
                         });
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching equipments: " + ex.Message);
+                    Console.WriteLine("Error fetching equipments: " + exception.Message);
                 }
             }
 
@@ -522,9 +522,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to add equipment.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -552,9 +552,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to delete equipment.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -596,9 +596,9 @@ namespace HospitalManagementApp.Data
                         });
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching appointments: " + ex.Message);
+                    Console.WriteLine("Error fetching appointments: " + exception.Message);
                 }
             }
 
@@ -636,9 +636,9 @@ namespace HospitalManagementApp.Data
                         };
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching medical record: " + ex.Message);
+                    Console.WriteLine("Error fetching medical record: " + exception.Message);
                 }
             }
 
@@ -673,9 +673,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to add medical record.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -709,9 +709,9 @@ namespace HospitalManagementApp.Data
                         Console.WriteLine("Failed to update medical record.");
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error: " + ex.Message);
+                    Console.WriteLine("Error: " + exception.Message);
                 }
             }
         }
@@ -748,9 +748,9 @@ namespace HospitalManagementApp.Data
                         medicalRecords.Add(medicalRecord);
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    Console.WriteLine("Error fetching medical records: " + ex.Message);
+                    Console.WriteLine("Error fetching medical records: " + exception.Message);
                 }
             }
 

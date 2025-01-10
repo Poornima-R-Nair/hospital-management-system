@@ -64,9 +64,9 @@ namespace HospitalManagementApp
                                     enteredPassword = ValidatePassword(ValidateStringInput(HidePasswordInput(), "Password"));
                                     isPasswordValid = true;
                                 }
-                                catch (ArgumentException ex)
+                                catch (ArgumentException exception)
                                 {
-                                    Console.WriteLine(ex.Message);
+                                    Console.WriteLine(exception.Message);
                                 }
                             }
 
@@ -98,9 +98,9 @@ namespace HospitalManagementApp
                                 break;
                         }
                     }
-                    catch (Exception ex)
+                    catch (Exception exception)
                     {
-                        throw new HospitalManagementException($"Operation failed: {ex.Message}");
+                        throw new HospitalManagementException($"Operation failed: {exception.Message}");
                     }
                 }
 
@@ -108,9 +108,9 @@ namespace HospitalManagementApp
                 Console.WriteLine("Thank you for using the Hospital Management System!");
                 Console.WriteLine("---------------------------------------------------");
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                throw new HospitalManagementException($"Application startup error: {ex.Message}");
+                throw new HospitalManagementException($"Application startup error: {exception.Message}");
             }
         }
 
@@ -225,9 +225,9 @@ namespace HospitalManagementApp
                             break;
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    throw new HospitalManagementException($"Admin operation failed: {ex.Message}");
+                    throw new HospitalManagementException($"Admin operation failed: {exception.Message}");
                 }
             }
         }
@@ -277,9 +277,9 @@ namespace HospitalManagementApp
                             break;
                     }
                 }
-                catch (Exception ex)
+                catch (Exception exception)
                 {
-                    throw new HospitalManagementException($"Doctor operation failed: {ex.Message}");
+                    throw new HospitalManagementException($"Doctor operation failed: {exception.Message}");
                 }
             }
         }
